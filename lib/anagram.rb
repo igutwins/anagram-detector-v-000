@@ -4,8 +4,8 @@ class Anagram
   def initialize(word)
     @word = word
   end
-  def match(words)
-    words.collect do |word|
+  def match(some_words)
+    some_words.collect do |word|
       if word == @word
     end
   end
