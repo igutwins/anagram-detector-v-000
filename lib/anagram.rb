@@ -2,5 +2,5 @@
 class Anagram
   def initialize(word)
     xx
-  end 
+  end
 end 
